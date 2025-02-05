@@ -9,16 +9,16 @@ body {
 
 /* Navbar Styling */
 .navbar {
-    background-color: #AEDFF7; /* soft pastel blue */
+    background-color: #AEDFF7 !important; /* soft pastel blue */
 }
 
 .navbar-brand, .nav-link {
-    color: #4A4A4A; /* slightly muted gray text */
+    color: #4A4A4A !important; /* slightly muted gray text */
     font-weight: 500;
 }
 
 .nav-link:hover {
-    color: #6C5B7B; /* slight purple on the hover */
+    color: #6C5B7B !important; /* slight purple on the hover */
 } 
 
 /* Form Styling */
@@ -47,13 +47,13 @@ form {
 }
 
 .btn-success {
-    background-color: #77DD77; /* pastel  green */
+    background-color: #77DD77 !important; /* pastel  green */
     border: none;
     transition: background-color 0.3s ease;
 }
 
 .btn-success:hover {
-    background-color: #66CC66; /*  slightly darker green for hovering */
+    background-color: #66CC66 !important; /*  slightly darker green for hovering */
 }
 
 /* Table Styling */
@@ -67,6 +67,10 @@ form {
 .table thead {
     background-color: #FFDAC1; /* soft peach */
     color: #4A4A4A;
+}
+
+.table-stripedd tbody tr:nth-oftype(odd){
+    background-color: #FFF1E6; /* light peach */
 }
 
 .table-striped tbody tr:hover {
@@ -86,21 +90,21 @@ form {
 
 /* Button Styling */
 .btn-primary {
-    background-color: #FFB7B2; /*soft pink background */
+    background-color: #FFB7B2 !important; /*soft pink background */
     border: none;
     transition: background-color 0.3s ease;
 }
 
 .btn-primary:hover {
-    background-color: #FFA6A0; /* slightly darker pink on hover */
+    background-color: #FFA6A0 !important; /* slightly darker pink on hover */
 }
 
 .btn-secondary {
-    background-color: #C1C8E4; /*soft blueish lavender */
+    background-color: #C1C8E4 !important; /*soft blueish lavender */
 }
 
 .btn-secondary:hover {
-    background-color: #A8B0D6; /* slightly darker on hover */
+    background-color: #A8B0D6 !important; /* slightly darker on hover */
 }
 
 /* Reponsive Features */
