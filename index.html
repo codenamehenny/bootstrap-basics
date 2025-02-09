@@ -11,19 +11,18 @@
 </head>
 <body>
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg custom-navbar">
         <div class="container-fluid">
             <a class="navbar-brand" href=""></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
-                data-bs-target="#navbarNav">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <!-- Missing link to pages -->
-                    <li class="nav-item"><a class="nav-link active" href="">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -32,7 +31,7 @@
     <!-- Main Container -->
     <div class="container">
         <!-- Registration Form -->
-        <h2 class mb-4>Registration Form</h2>
+        <h2 class="mb-4">Registration Form</h2>
         <form>
             <div class="row mb-3">
                 <div class="col-md-6">
@@ -41,7 +40,7 @@
                 </div>
                 <div class="col-md-6">
                     <label for="lastName" class="form-label">Last Name</label>
-                    <input type="text" class="form-control" id="firstName" placeholder="Enter first name" required>
+                    <input type="text" class="form-control" id="firstName" placeholder="Enter last name" required>
                 </div>
                 <div class="mb-3">
                     <label for="email" class="form-label">Email</label>
@@ -53,17 +52,17 @@
                 </div>
                 <div class="mb-3 form-check">
                     <input type="checkbox" class="form-check-input" id="terms" required>
-                    <label class="form-check-label" for="terms" required>Agree to terms and conditions</label>
+                    <label class="form-check-label" for="terms">Agree to terms and conditions</label>
                 </div>
                 <button type="submit" class="btn btn-success">Submit</button>
             </div>
         </form>
 
          <!-- User Data Table -->
-        <h2 class="mt-5">User Data</h2>
+        <h2>User Data</h2>
         <div class="table-responsive">
             <table class="table table-striped table-hover">
-                <thead class="table-dark">
+                <thead>
                     <tr>
                         <th>#</th>
                         <th>First Name</th>
@@ -95,15 +94,16 @@
         </div>
 
         <!-- Image Section -->
-        <div class="container-fluid p-0">
-            <img src="" class="img-fluid" alt="">
+        <h2>Images</h2>
+        <div class="container-fluid text-center">
+            <img src="https://images.unsplash.com/photo-1560807707-8cc77767d783?w=800" class="img-fluid" alt="dog image 1">
         </div>
-        <div class="container text-center">
-            <img src="" class="img-fluid" class="rounded-cirle" alt="">
+        <div class="container text-center mt-3">
+            <img src="https://images.unsplash.com/photo-1517423440428-a5a00ad493e8?w=200" class="rounded-circle img-fluid" alt="dog image 2">
         </div>
 
         <!-- Buttons Section -->
-        <div class="container text-center mb-5">
+        <div class="container d-flex justify-content-center gap-3 mb-5">
             <button class="btn btn-primary">Visible on all screens</button>
             <button class="btn btn-secondary d-none d-md-block">Hidden on small screens</button> 
         </div>
