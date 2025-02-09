@@ -9,16 +9,16 @@ body {
 
 /* Navbar Styling */
 .navbar {
-    background-color: #AEDFF7 !important; /* soft pastel blue */
+    background-color: #AEDFF7; /* soft pastel blue */
 }
 
 .navbar-brand, .nav-link {
-    color: #4A4A4A !important; /* slightly muted gray text */
+    color: #4A4A4A ; /* slightly muted gray text */
     font-weight: 500;
 }
 
 .nav-link:hover {
-    color: #6C5B7B !important; /* slight purple on the hover */
+    color: #6C5B7B; /* slight purple on the hover */
 } 
 
 /* Form Styling */
@@ -69,14 +69,15 @@ form {
     color: #4A4A4A;
 }
 
-.table-stripedd tbody tr:nth-oftype(odd){
+.table-striped tbody tr:nth-of-type(odd) {
     background-color: #FFF1E6; /* light peach */
 }
 
-.table-striped tbody tr:hover {
+.table-hover tbody tr:hover {
     background-color: #FFEBE6; /* light coral on hover */
 }
 
+/* Image Section */
 .container-fluid img {
     border-radius: 0;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15)
@@ -96,7 +97,7 @@ form {
 }
 
 .btn-primary:hover {
-    background-color: #FFA6A0 !important; /* slightly darker pink on hover */
+    background-color: #FFA6A0; /* slightly darker pink on hover */
 }
 
 .btn-secondary {
